@@ -1,10 +1,10 @@
 /*the stuff for the header*/
 #header {
-    background-image:url(%%put your image url here for the header%%);
-    background-position:150px -965px;
-    background-size:85%;
-    height:250px;
-    background-attachment: fixed;
+    background-image:url(%% put your backgound image here%%);
+}
+#sr-header-area {
+    background-color: white;
+    border:0px;
 }
 #header-bottom-left {
     position: absolute;
