@@ -1,6 +1,21 @@
 /*the stuff for the header*/
 #header {
-    background-image:url(%% put your backgound image here%%);
+    background-image:url(%%put the url of you header pic here%%);
+}
+#header .tabmenu li a {
+    display: inline-block;
+    background-color: rgb(114,137,218);
+    border: none;
+    margin: 0;
+    padding: 0px 25px;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 18px;
+    color: #f7f7f7;
+    
+}
+#header .tabmenu li a:hover, #header .tabmenu .selected a {
+    background-color: rgba(114,137,218);
 }
 #sr-header-area {
     background-color: white;
@@ -9,10 +24,6 @@
 #header-bottom-left {
     position: absolute;
     bottom: 0px;
-}
-/*tab things*/
-.tabmenu.selected {
-    background-image:none;
 }
 /*THE NUB IS DEAD*/
 .nub {
@@ -24,6 +35,12 @@
     background-color:rgb(114,137,218);
     border:none;
     border-radius:1px;
+    width:140px;
+    height:30px;
+}
+.sidebox.submit.submit-link {
+    margin-left:155px;
+    margin-bottom:-42px;
 }
 .morelink a {
     color:rgb(54, 57, 62);
@@ -31,7 +48,6 @@
 .morelink a:hover {
     color:white;
     transition:.3s;
-    padding-top:3px;
 }
 .morelink:hover {
     background-image:none;
@@ -39,7 +55,7 @@
     border:none;
     border-radius:1px;
     transition:.3s all;
-    height:35px;
+    height:30px;
 }
 /*side bar sturf*/
 .side { 
@@ -54,6 +70,18 @@
 /*changing the position of sub info*/
 .redditname {
     padding-left:115px;
+}
+.subscribers .word {
+    display:none;
+}
+.subscribers .number:after {
+    content:" botmisters";
+}
+.users-online.fuzzed .word {
+    display:none;
+}
+.users-online.fuzzed .number:after {
+    content:" botmisters here now";
 }
 .fancy-toggle-button .option { 
     visibility:hidden;
